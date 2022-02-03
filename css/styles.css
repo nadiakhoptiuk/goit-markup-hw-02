@@ -1,0 +1,82 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста (абзацы) #757575 */
+/* цвет текста белый #FFFFFF */
+/* цвет текста из логотипа темный #000000 */
+/* акцентный цвет #2196F3 */
+/* цвет текста контактов в футере rgba(255, 255, 255, 0,6) */
+/* цвет фона в футере #2F303A */
+/* цвет фона вторичный секции контактов #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --contacts-text-color-footer: rgba(255, 255, 255, 0, 6);
+  --black-text-color-logo: #000000;
+
+  --primary-bgd-color: #ffffff;
+  --secondary-bgd-color: #2f303a;
+  --special-bgd-color: #f5f4fa;
+}
+
+.page {
+  background-color: var(--primary-bgd-color);
+  color: var(--primary-text-color);
+}
+
+.page-header .logo {
+  color: var(--black-text-color-logo);
+}
+
+/* style of list markers */
+.list {
+  list-style: none;
+}
+
+/* site navigation */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:visited {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* contact us */
+.contact-us a {
+  color: var(--secondary-text-color);
+}
+
+.contact-us a:hover,
+.contact-us a:focus {
+  color: var(--accent-text-color);
+}
+
+/* style of titles */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.features .text {
+  color: var(--secondary-text-color);
+}
+
+/* team section */
+.team .proffession {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+.footer .logo {
+  color: var(--white-text-color);
+}
+
+.contacts .address {
+  color: var(--contacts-text-color-footer);
+}
