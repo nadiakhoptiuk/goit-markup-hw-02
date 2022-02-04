@@ -71,6 +71,9 @@
   color: var(--accent-text-color);
 }
 
+/* Page Studio Styles */
+/* Page Studio Styles */
+
 /* features */
 
 .features .text {
@@ -111,3 +114,11 @@
 .contacts .address {
   color: var(--contacts-text-color-footer);
 }
+
+.contacts .address:hover,
+.contacts .address:focus {
+  color: var(--accent-text-color);
+}
+
+/* Page Portfolio styles */
+/* Page Portfolio styles */
