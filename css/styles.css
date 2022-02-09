@@ -23,10 +23,15 @@
 .page {
   background-color: var(--primary-bgd-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
 }
 
+/* logotype */
 .page-header .logo {
   color: var(--black-text-color-logo);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
 }
 
 /* style of list markers */
@@ -45,6 +50,7 @@
 
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:visited {
@@ -64,6 +70,7 @@
 
 .contact-us a {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .contact-us a:hover,
@@ -109,10 +116,17 @@
 
 .footer .logo {
   color: var(--white-text-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+}
+
+.footer .contacts {
+  font-style: normal;
 }
 
 .contacts .address {
   color: var(--contacts-text-color-footer);
+  text-decoration: none;
 }
 
 .contacts .address:hover,
@@ -122,3 +136,19 @@
 
 /* Page Portfolio styles */
 /* Page Portfolio styles */
+.butttons.list {
+  color: var(--primary-text-color);
+  background-color: var(--special-bgd-color);
+}
+
+.projects .text {
+  color: var(--secondary-text-color);
+}
+
+.project-title {
+  color: var(--primary-text-color);
+}
+
+.project-link {
+  text-decoration: none;
+}
