@@ -118,6 +118,7 @@
 
 .hero-title {
   color: var(--white-text-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -135,6 +136,8 @@
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /* team section */
@@ -175,6 +178,7 @@
   color: var(--contacts-text-color-footer);
   text-decoration: none;
   font-style: normal;
+  line-height: 1.71;
 }
 
 .address.physical {
@@ -189,6 +193,7 @@
 /* Page Portfolio styles */
 /* Page Portfolio styles */
 
+/* buttons style */
 .button {
   color: var(--primary-text-color);
 
@@ -197,6 +202,8 @@
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  cursor: pointer;
 }
 
 .project-title {
