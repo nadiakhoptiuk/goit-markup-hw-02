@@ -129,6 +129,7 @@
 
 .hero-button {
   color: var(--white-text-color);
+  background-color: var(--accent-text-color);
 
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -138,6 +139,8 @@
   letter-spacing: 0.06em;
 
   cursor: pointer;
+  border: 0;
+  border-radius: 4px;
 }
 
 /* team section */
@@ -196,6 +199,7 @@
 /* buttons style */
 .button {
   color: var(--primary-text-color);
+  background-color: var(--special-bgd-color);
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -204,6 +208,14 @@
   text-align: center;
 
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-text-color);
 }
 
 .project-title {
@@ -219,7 +231,7 @@
   color: var(--secondary-text-color);
 
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 
 .project-link {
